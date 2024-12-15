@@ -12,7 +12,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
-import { BaseChartDirective } from 'ng2-charts';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
@@ -35,7 +34,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatDialogModule,
     MatSnackBarModule,
     MatButtonModule,
-    BaseChartDirective,
      NgxEchartsModule.forRoot({
       echarts: () => import('echarts')
     })
