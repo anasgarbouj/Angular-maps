@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+/* Assurez-vous que la carte a une taille définie */
+#map {
+  height: 50vh;
+  width: 100vw;
+}
+
+/* Ajuster les images Leaflet (icônes), car elles doivent être correctement référencées */
+.leaflet-container {
+  height: 50%;
+  width: 50%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
